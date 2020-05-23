@@ -12,7 +12,7 @@ App({
       obj.checked = true
       this.globalData.cartList.push(obj)
     }
-
+	//新增注释文件
     // 2.购物车回调
     if (this.addCartCallback) {
       this.addCartCallback()
